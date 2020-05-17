@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".websiteActivity">
+<WebView
+    android:id="@+id/webview_website"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+<!--    <TextView-->
+<!--        android:layout_below="@id/webview_website"-->
+<!--        android:id="@+id/text_view_flipkart"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="Flipkart"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/text_view_fname"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Product Name"-->
+<!--        android:textSize="30sp"-->
+<!--        android:layout_below="@+id/text_view_flipkart"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:id="@+id/text_view_fprice"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:text="Price"-->
+<!--        android:textSize="30sp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/text_view_fname"-->
+<!--        />-->
+
+<!--    <TextView-->
+
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:layout_below="@+id/text_view_fprice"-->
+<!--        android:id="@+id/text_view_amazon"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="Amazon"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/text_view_aname"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Product Name"-->
+<!--        android:textSize="30sp"-->
+<!--        android:layout_below="@+id/text_view_amazon"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:id="@+id/text_view_aprice"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:text="Price"-->
+<!--        android:textSize="30sp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/text_view_aname"-->
+<!--        />-->
+</RelativeLayout>

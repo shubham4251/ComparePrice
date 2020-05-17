@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!--<EditText-->
+<!--    android:id="@+id/edit_text_search"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginStart="15dp"-->
+<!--    android:layout_marginTop="30dp"-->
+<!--    android:layout_marginEnd="15dp"-->
+<!--    />-->
+<!--    <Button-->
+<!--        android:id="@+id/button_search"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/edit_text_search"-->
+<!--        android:text="Search"/>-->
+<!--    <ListView-->
+<!--        android:id="@+id/myListview"-->
+<!--        android:layout_below="@+id/button_search"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:id="@+id/layer1">
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/flipkart"
+            android:id="@+id/flipkart"
+
+            />
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/amazon"
+            android:layout_marginStart="50dp"
+            android:id="@+id/amazon"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/layer1"
+        android:layout_marginTop="50dp"
+        android:id="@+id/layer2">
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/snapdeal"
+            android:id="@+id/snapdeal"
+
+            />
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/myntra"
+            android:layout_marginStart="50dp"
+            android:id="@+id/mynta"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/layer2"
+        android:layout_marginTop="50dp"
+        android:id="@+id/layer3">
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ebay"
+            android:id="@+id/ebay"
+
+            />
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/jabong"
+            android:layout_marginStart="50dp"
+            android:id="@+id/jabong"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>
